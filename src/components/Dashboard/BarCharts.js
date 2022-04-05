@@ -41,10 +41,10 @@ const BarCharts = () => {
         }
     ]
     return (
-        <div className='p-32 m-24 border-8 rounded'>
+        <div className='p-16 m-24 border-8 rounded'>
             <h1 className=' text-3xl'>Bar chart</h1>
 
-            <BarChart width={600} height={450} data={data}>
+            <BarChart width={400} height={450} data={data}>
                 <Bar dataKey="sell" fill="BLUE" />
                 <Bar dataKey="revenue" fill="GREEN" />
                 <Bar dataKey="investment" fill="GRAY" />

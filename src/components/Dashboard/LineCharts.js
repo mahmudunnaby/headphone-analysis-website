@@ -42,9 +42,9 @@ const LineCharts = () => {
     ]
     return (
 
-        <div className='p-32 m-24 border-8 rounded'>
+        <div className='p-16 m-24 border-8 rounded'>
             <h1 className='text-3xl'>Line Chart</h1>
-            <LineChart width={600} height={500} data={data}>
+            <LineChart width={400} height={500} data={data}>
                 <Line dataKey={'investment'}></Line>
                 <YAxis></YAxis>
                 <XAxis dataKey={'month'}></XAxis>
