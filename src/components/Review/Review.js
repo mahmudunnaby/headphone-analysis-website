@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import ReviewCard from '../ReviewCard/ReviewCard';
-
+import useReviews from '../hooks/useReview';
 
 const Review = () => {
 
-    const [reviews, setReviews] = useState([])
+    // const [reviews, setReviews] = useState([])
 
-    useEffect(() => {
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    // useEffect(() => {
+    //     fetch('data.json')
+    //         .then(res => res.json())
+    //         .then(data => setReviews(data))
+    // }, [])
 
-
+    const [reviews, setReviews] = useReviews([])
 
 
 

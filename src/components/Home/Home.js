@@ -1,4 +1,6 @@
 import React from 'react';
+import CustomLink from '../CustomLink/CustomLink';
+import HomepageReview from '../HomepageReview/HomepageReview';
 import Review from '../Review/Review';
 
 
@@ -16,7 +18,11 @@ const Home = () => {
                 </div>
                 <div>
                     <h1 className='text-4xl bg-slate-50 px-12 py-8' >Customer Review</h1>
-                    <Review></Review>
+                    <HomepageReview></HomepageReview>
+                    <div className=' mb-52 text-3xl px-10 border-2 w-auto rounded'>
+                        <CustomLink to='/review'>See ALL Reviews</CustomLink>
+                    </div>
+
 
                 </div>
 
