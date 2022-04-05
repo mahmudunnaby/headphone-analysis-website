@@ -42,7 +42,7 @@ const BarCharts = () => {
     ]
     return (
         <div className='p-32 m-24 border-8 rounded'>
-            <h1>bar chart</h1>
+            <h1 className=' text-3xl'>Bar chart</h1>
 
             <BarChart width={600} height={450} data={data}>
                 <Bar dataKey="sell" fill="BLUE" />

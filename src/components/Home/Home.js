@@ -9,7 +9,7 @@ const Home = () => {
                 <div className="flex flex-row  justify-center items-center">
                     <div className="w-1/2 flex-1  px-32">
                         <h1 className='text-6xl '>FEEL THE MUSIC IN YOUR BONES</h1>
-                        <p className='m-10'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum temporibus corrupti, laudantium doloremque magnam expedita saepe cupiditate commodi perspiciatis. Quas id sit sunt dolorum voluptas officia. Iure deserunt voluptatibus eius!</p>
+                        <p className='m-10'>Nowadays headphone is becoming an essential gadget for us.Choosing the best headphones for you depends on several factors, including your budget, the features you need and any preferences you have about how they look and how fit.</p>
                     </div>
 
                     <img className='w-1/2 flex-1  justify-center items-centers h-5/6 w-36 p-32' src="https://pngimg.com/uploads/headphones/headphones_PNG7645.png" alt="" />
