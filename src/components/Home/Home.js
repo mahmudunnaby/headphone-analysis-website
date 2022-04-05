@@ -1,4 +1,5 @@
 import React from 'react';
+import Review from '../Review/Review';
 
 
 const Home = () => {
@@ -12,6 +13,11 @@ const Home = () => {
                     </div>
 
                     <img className='w-1/2 flex-1  justify-center items-centers h-5/6 w-36 p-32' src="https://pngimg.com/uploads/headphones/headphones_PNG7645.png" alt="" />
+                </div>
+                <div>
+                    <h1 className='text-4xl bg-slate-50 px-12 py-8' >Customer Review</h1>
+                    <Review></Review>
+
                 </div>
 
 

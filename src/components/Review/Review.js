@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import ReviewCard from '../ReviewCard/ReviewCard';
 
+
 const Review = () => {
 
     const [reviews, setReviews] = useState([])
 
-
-
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/comments')
+        fetch('data.json')
             .then(res => res.json())
-            .then(data => setReviews(data.slice(0, 20)))
+            .then(data => setReviews(data))
     }, [])
+
+
+
+
 
     return (
         <div className='px-4 pt-20 pb-24 mx-auto max-w-7xl '>
